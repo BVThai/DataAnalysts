@@ -1,15 +1,21 @@
 ## Project Overview
-This project involved the design and implementation of an OLAP cube for multidimensional data analysis, along with related tasks aimed at improving traffic safety through data-driven insights.
+
+This project focused on building and optimizing models to predict cryptocurrency prices. The work involved data analysis, feature selection, and collaboration with the team to interpret results and provide actionable insights.
 
 ## Key Accomplishments
-- **OLAP Cube Design and Implementation**: Designed and implemented an OLAP cube to enable comprehensive multidimensional data analysis.
-- **ETL Processes**: Conducted ETL (Extract, Transform, Load) processes to prepare and clean data, ensuring high-quality inputs for analysis.
-- **Interactive Reports and Dashboards**: Created interactive reports and dashboards for data visualization, enhancing the understanding of complex data.
-- **Data Mining**: Applied data mining techniques to uncover patterns and insights within the dataset, contributing to traffic safety improvements.
+
+- **Model Development**: Built and optimized models to predict cryptocurrency prices with both short-term and long-term forecasts.
+- **Data Analysis and Feature Selection**: Conducted thorough data analysis and selected key features for accurate model predictions.
+- **Collaboration and Insights**: Worked closely with the team to interpret results and provide insights based on model outcomes.
+- **Data Preprocessing**: Preprocessed historical cryptocurrency price data to ensure accurate modeling.
+- **Forecast Generation**: Generated both short-term and long-term price forecasts.
+- **Model Evaluation**: Evaluated the performance of different prediction models to determine the most effective approach.
 
 ## Technology Stack and Skills
-- **MDX Queries**: Skilled in writing complex MDX (Multidimensional Expressions) queries for data retrieval and analysis within OLAP cubes.
-- **ETL Workflows (SSIS)**: Designed and implemented ETL workflows using SQL Server Integration Services (SSIS) to clean, transform, and load data from various sources.
-- **OLAP Cube Development (SSAS)**: Knowledgeable in designing, deploying, and querying OLAP cubes using SQL Server Analysis Services (SSAS) and MDX.
-- **Data Visualization (Power BI, Excel)**: Proficient in creating interactive reports and dashboards using Power BI and Excel Pivot Tables, enabling effective data communication.
-- **Data Mining Techniques**: Skilled in applying data mining techniques to discover patterns and relationships within data, driving actionable insights.
+
+- **Data Preparation (Python, Pandas, NumPy)**: Utilized Python libraries like Pandas and NumPy for data cleaning, normalization, and transformation to prepare the dataset for modeling.
+- **LSTM Neural Networks (TensorFlow/Keras)**: Implemented LSTM neural networks using TensorFlow/Keras to capture temporal dependencies and patterns in time-series data for accurate price predictions.
+- **Linear Regression (scikit-learn)**: Applied scikit-learn to develop and train Linear Regression models for trend analysis and straightforward forecasting.
+- **SES Smoothing (statsmodels)**: Leveraged the statsmodels library to implement Simple Exponential Smoothing (SES) for smoothing data and generating short-term forecasts.
+- **Model Performance Evaluation**: Employed various metrics to evaluate and compare model performance.
+- **Data Visualization (Matplotlib)**: Used Matplotlib to create visual representations of the data, model predictions, and performance metrics to facilitate analysis and interpretation.

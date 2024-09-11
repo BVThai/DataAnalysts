@@ -14,8 +14,8 @@ This project focused on building and optimizing models to predict cryptocurrency
 ## Technology Stack and Skills
 
 - **Data Preparation (Python, Pandas, NumPy)**: Utilized Python libraries like Pandas and NumPy for data cleaning, normalization, and transformation to prepare the dataset for modeling.
-- **LSTM Neural Networks (TensorFlow/Keras)**: Implemented LSTM neural networks using TensorFlow/Keras to capture temporal dependencies and patterns in time-series data for accurate price predictions.
-- **Linear Regression (scikit-learn)**: Applied scikit-learn to develop and train Linear Regression models for trend analysis and straightforward forecasting.
-- **SES Smoothing (statsmodels)**: Leveraged the statsmodels library to implement Simple Exponential Smoothing (SES) for smoothing data and generating short-term forecasts.
+- **ARIMA (statsmodels)**: Applied ARIMA (AutoRegressive Integrated Moving Average) using the statsmodels library to analyze and forecast cryptocurrency prices. ARIMA combines autoregressive, differencing, and moving average components to accurately predict price fluctuations in the short to medium term.
+- **GRU (TensorFlow/Keras)**: Utilized GRU (Gated Recurrent Unit) with TensorFlow/Keras to model time dependencies and long-term patterns in cryptocurrency price data. GRU, with its simpler structure compared to LSTM, is designed to effectively capture trends and complex fluctuations in price movements.
+- **MLP (TensorFlow/Keras)**: Deployed Multilayer Perceptron (MLP) in TensorFlow/Keras to learn and predict non-linear patterns in cryptocurrency price data. MLP serves as a foundational model for comparison with other time-series forecasting algorithms.
 - **Model Performance Evaluation**: Employed various metrics to evaluate and compare model performance.
 - **Data Visualization (Matplotlib)**: Used Matplotlib to create visual representations of the data, model predictions, and performance metrics to facilitate analysis and interpretation.
